@@ -1,0 +1,11 @@
+if else (condtions)
+
+  const name = "abdullah"  
+
+age 18 == 
+
+age 18 === stirng number boolean 
+
+if(kya chez hone chaya){
+	jawab kya hoga ?
+}

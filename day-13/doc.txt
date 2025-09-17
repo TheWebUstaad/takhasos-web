@@ -1,0 +1,25 @@
+day 13: 
+-----------------------------------
+topi 1 
+
+Positions : fixed
+	bottom left right top 
+-----------------------------------
+Topic 2: 
+	#fff #000 #eee #333 red yellow blue html cplor space 
+#CF1987  background blue  
+#192ECF  heading  green 
+#19CF56  text color red 
+-----------------------------------
+tag: (style) body header h1 p div 
+tag based styling : h1   
+-----------------------------------
+overlay div
+
+height:100vh
+
+
+books : book 1 book 2 book 3
+
+
+

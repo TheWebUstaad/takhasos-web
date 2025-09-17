@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Noor Bazaar - Islamic Marketplace</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-grid">
+      <!-- logo -->
+      <a href="#" class="logo"><i class="fas fa-mosque"></i> Noor Bazaar</a>
+      <!-- navbar -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <!-- search -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search ..." aria-label="Search products" />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <!-- cart -->
+      <a href="#" class="cart-icon" aria-label="Cart"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Noor Bazaar — Islamic Marketplace</h1>
+      <p>Discover authentic Islamic products with ease and elegance</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <h2 class="section-title">Categories</h2>
+      <div class="categories-grid">
+        <div class="category-card">
+          <img src="https://kitabbazaar.pk/cdn/shop/files/2B130CEC-90D0-42AF-A25A-F6C765BFCB92.png?v=1735770597" alt="Islamic Books" />
+          <h3>Books</h3>
+        </div>
+        <div class="category-card">
+          <img src="https://images-cdn.ubuy.ae/65b4af149d8dad35885351e9-cogongrass-muslim-hijab-islamic-arab.jpg" alt="Hijabs" />
+          <h3>Hijabs</h3>
+        </div>
+        <div class="category-card">
+          <img src="https://darulmisk.com/cdn/shop/files/WhatsApp_Image_2024-08-26_at_3.18.18_AM.jpg?v=1755775110&width=533" alt="Attar" />
+          <h3>Attar</h3>
+        </div>
+        <div class="category-card">
+          <img src="https://www.islamicbazaar.co.uk/cdn/shop/products/il_fullxfull.1892490394_4645_17852240-9879-4ab6-ba25-7cd79ee1729f_300x300.jpg" alt="Ihram" />
+          <h3>Ihram</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offer -->
+  <section class="special-offer" aria-label="Special Offer">
+    <div class="container offer-card">
+      <div class="offer-text">
+        <h2>Special Offer: Sunnah Attars Bundle</h2>
+        <p>Get a curated pack of 3 premium attars — <strong>20% OFF</strong> this week only.</p>
+        <a href="#products" class="btn btn-dark">Grab the Deal</a>
+      </div>
+      <div class="offer-image" role="presentation" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products" id="products">
+    <div class="container">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1590608897129-79da98d1593a?q=80&w=1200&auto=format&fit=crop" alt="Tasbeeh (Prayer Beads)" />
+          <h3 class="product-title">Tasbeeh (Prayer Beads)</h3>
+          <p class="price">Rs. 1,200</p>
+          <button class="btn add-to-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        </article>
+        <!-- Product 2 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1617038260897-3b6d2b2f3a92?q=80&w=1200&auto=format&fit=crop" alt="Premium Attar - Oud" />
+          <h3 class="product-title">Premium Attar — Oud</h3>
+          <p class="price">Rs. 2,800</p>
+          <button class="btn add-to-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        </article>
+        <!-- Product 3 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="Islamic Calligraphy Frame" />
+          <h3 class="product-title">Calligraphy Frame</h3>
+          <p class="price">Rs. 5,500</p>
+          <button class="btn add-to-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        </article>
+        <!-- Product 4 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=1200&auto=format&fit=crop" alt="Ihram (Men)" />
+          <h3 class="product-title">Ihram (Men)</h3>
+          <p class="price">Rs. 3,200</p>
+          <button class="btn add-to-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        </article>
+        <!-- Product 5 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1577382145776-93d8f5e6b8a2?q=80&w=1200&auto=format&fit=crop" alt="Prayer Mat (Janamaz)" />
+          <h3 class="product-title">Prayer Mat</h3>
+          <p class="price">Rs. 2,000</p>
+          <button class="btn add-to-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        </article>
+        <!-- Product 6 -->
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1200&auto=format&fit=crop" alt="Quran (Uthmani Script)" />
+          <h3 class="product-title">Quran — Uthmani Script</h3>
+          <p class="price">Rs. 1,800</p>
+          <button class="btn add-to-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" aria-label="Customer Testimonials">
+    <div class="container">
+      <h2 class="section-title">What Customers Say</h2>
+      <div class="testimonials-grid">
+        <figure class="testimonial-card">
+          <blockquote>
+            “Quality products and quick delivery. The attar smells amazing. Highly recommended!”
+          </blockquote>
+          <figcaption>
+            <img src="https://i.pravatar.cc/80?img=12" alt="Amina's avatar" />
+            <div><strong>Amina S.</strong><span>Karachi</span></div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <blockquote>
+            “Tasbeeh and prayer mat both are beautiful. Packaging bhi bohat achi thi.”
+          </blockquote>
+          <figcaption>
+            <img src="https://i.pravatar.cc/80?img=7" alt="Hassan's avatar" />
+            <div><strong>Hassan R.</strong><span>Lahore</span></div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <blockquote>
+            “Excellent customer service and authentic items. Will shop again Insha’Allah.”
+          </blockquote>
+          <figcaption>
+            <img src="https://i.pravatar.cc/80?img=30" alt="Zara's avatar" />
+            <div><strong>Zara K.</strong><span>Islamabad</span></div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter" aria-label="Newsletter">
+    <div class="container newsletter-card">
+      <h2>Join Our Newsletter</h2>
+      <p>Get new arrivals, discounts, and Islamic reminders in your inbox.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+        <label for="email" class="sr-only">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="footer-overlay">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo"><i class="fas fa-mosque"></i> Noor Bazaar</a>
+          <p>Authentic Islamic products for your daily life.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <nav class="footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#products">Products</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-links" id="about">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Track Order</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>&copy; <span id="year"></span> Noor Bazaar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // dynamic year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+Day 14: 
+	CSS : 
+	 Position: 
+		  Fixed (widnows Screen)
+		  Relative
+		  Absolute
+		  Sticky
+		  Static (by defult)
+----------------------------------------
+(Top right Bottom Left)
+		Static
+		fixed 
+Relative Position ? 
+Position Absolute ?
+ 
+
+
+
+
+

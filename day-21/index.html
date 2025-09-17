@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day - 3</title>
+</head>
+<body>
+    <script>
+        console.log("Bismillah Hir Rahman Nir Raheem");
+
+// declare variable using var
+// let name;
+
+// // reuse variable value
+// name = "abdullah";
+//         // console.log(name);
+
+// // reassign variable value
+// name = "Ali";
+//         // console.log(name);
+
+// const name = "abdullah";
+// console.log(name);
+
+// عربک 
+
+// const surahs = ["الفاتحة", "البقرة", "آل عمران", "النساء", "المائدة"];
+// console.log(surahs);
+// console.log(surahs[0]);
+// console.log(surahs.length);
+
+const prayers = ["فجر", "ظهر", "عصر", "مغرب", "عشاء"];
+const userInput = prompt("Enter a prayer name");
+
+
+console.log(prayers.indexOf("ظهر")); // returns the index of the element
+console.log(prayers.indexOf("عشاء")); // returns the index of the element
+
+
+
+
+
+
+prayers.unshift("تہجد"); // adds an element at the beginning of the array
+prayers.push("وتر"); // adds an element at the end of the array
+prayers[3] = "صبح"; // updates the value at index 3
+console.log(prayers); 
+
+prayers.pop(); // removes the last element
+prayers.shift(); // removes the first element
+console.log(prayers);
+
+
+console.log(prayers.includes("صبح")); // checks if the array includes a specific element
+if (prayers.includes(userInput)) {
+    console.log("This prayer is in the list");
+} else {
+    console.log("This prayer is not in the list");
+}
+
+
+</script>
+</body>
+</html>

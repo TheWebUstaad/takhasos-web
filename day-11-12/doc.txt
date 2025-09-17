@@ -1,0 +1,79 @@
+DAy 11: 
+	sections : 
+		Non Sementic Tags : 
+			<div> </div>
+		Sementic Tags : 
+			"Div" : 
+			<nav> </nav> <div></div>
+			<section></section>
+			<footer></footer>
+			<aside></aside>
+------------------------------------------------
+
+<p style="color:red"> ladlaldladlda </p>
+
+<style>
+	.class{
+			
+		}
+</style>
+
+
+style.css .html .css 
+
+
+
+<link rel="stylesheet" href="style.css"/>
+
+------------------------------------------------
+
+.1{
+  	
+}
+.div3{
+}
+
+.&
+
+.boxFirst{}
+
+box ul 
+
+------------------------------------------------
+h1 h2 p div ul li a 
+------------------------------------------------
+
+:hover 
+
+------------------------------------------------
+	<table>
+	<ul> <li><li>
+	<table>  <tr><td></td></tr></table>
+
+	<form>
+		
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

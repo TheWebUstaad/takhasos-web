@@ -1,0 +1,22 @@
+Data types } string number boolean 
+------------------------------------
+Array = 
+let name = "muhmmad";
+
+let students = "abdullah ali bilal hasan"
+------------------------------------
+
+Let name; 
+
+name = "abdullah"
+
+name = "ali"
+------------------------------------
+const name ;
+------------------------------------
+Boolean True/false 
+
+
+
+
+

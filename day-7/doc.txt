@@ -1,0 +1,20 @@
+Padding : inner Space 
+Margin : outer Space
+----------------------
+padding-top
+padding-left
+padding-right
+padding-bottom
+----------------------
+<style>
+.
+</style>
+
+justify-content: center end start
+space-around space-evenly
+disply flex
+
+
+
+
+

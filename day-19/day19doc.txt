@@ -1,0 +1,77 @@
+day 19:
+ 	(Javascript)
+	scripting language 
+	Browser (web page) after loading 
+	html element changes css change show and hide 
+	restraction 
+	effect scroll click 
+	<script>
+		
+	</script>
+	<style>
+	</style>
+	Top of the file use 
+	script in bottom
+	script.js || .js
+------------------------------------------------
+	
+	class="" href=""
+
+	console.log(" Your msg");
+	alert("javascript session")	
+------------------------------------------------
+	Variables : 
+		name
+		age
+		courseYear
+		score
+		marks
+		languge
+		country
+		city
+		
+let name = "abdullah"
+
+------------------------------------------------
+let 1name x Number 
+let %name x symbol 
+let name 
+let NAME = " 
+
+let my_name "abdullah 
+
+
+NAME = "ABDULLAH"
+
+name = "ali"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

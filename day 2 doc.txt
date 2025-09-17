@@ -1,0 +1,54 @@
+Session : 2 
+	 File Types / extensions
+		image : .jpg .png .webp .jpeg
+			ex : logo.png banner.jpg
+			Png : logo 
+		video 
+			.mp4
+		pdf 
+			.pdf
+		doc
+			.doc
+		excel
+			.exsl
+website: 
+		Webpage .html (index.html , about.html)
+=======================================================
+Vs Code : Code Editor 
+input :  coding (vs code)
+output : browser (chrome browser) 
+for save : ctrl + s 
+undo : ctrl + z
+redo : ctrl + y 
+=======================================================
+Web page : 
+		Tags 
+
+<tag> <tag> <tag>  
+
+
+<h1> heading 1 
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

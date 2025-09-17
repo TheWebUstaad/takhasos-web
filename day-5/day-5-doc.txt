@@ -1,0 +1,26 @@
+Folder : 
+	table assinment
+	marksheet work
+	session on practice 
+------------------------
+day-5
+------------------------
+table-assingmet
+marksheetWork
+sessionPractice 
+------------------------
+table <tr>
+attributes 
+------------------------
+Style : 
+
+<tag style=""> </tag>
+
+style : 
+	properyt: value
+
+
+
+
+
+

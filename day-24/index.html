@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day : 24</title>
+</head>
+<body>
+<h2>Enter your Password </h2>
+<!-- <input type="text" placeholder="Enter your name" id="name" /> -->
+<!-- <button onclick="showName()">Print Name</button> -->
+
+<input type="password" placeholder="Enter your name" id="pass" />
+<button onclick="CheckPassword()">Check</button>
+<p id="msg"></p>
+
+    <script>
+        function CheckPassword(){
+            let pass = document.getElementById("pass").value;
+            let msg = document.getElementById("msg");
+            // console.log(pass.length);
+            if(pass.length >= 6){
+                // msg = "Strong Password";
+                // msg =  document.getElementById("msg").innerText = msg;
+              msg.innerText = "Strong Password";  
+              msg.style.color = "green";
+              msg.style.fontSize = "22px";
+            }else{
+                // msg = "Weak Password"
+                // document.getElementById("msg").innerText = msg ;
+                msg.innerText = "Weak Password";
+                msg.style.color = "red";
+                msg.style.fontSize = "22px";
+            }
+        }
+    //    function showName(){
+    //      let name = document.getElementById("name").value;
+    //      alert("Your name is: " + name);
+    //    }
+
+           
+
+            
+
+     
+     </script>
+</body>
+</html>

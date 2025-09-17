@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enrollment Form - Online Academy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Course</a></li>
+        <li><a href="contact.html">About Us</a></li>
+        <li><a href="contact.html">Enroll</a></li>
+      </ul>
+    </nav>
+
+    <section class="enrollment-form-section">
+      <h2>Enroll in a Course</h2>
+      <p>Fill out the form below to start your learning journey with us.</p>
+      <form action="/submit-enrollment" method="post" class="enrollment-form">
+        <div class="form-group">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+        </div>
+        <div class="form-group">
+          <label for="course">Select Course:</label>
+          <select id="course" name="course" required>
+            <option value="">--Please choose a course--</option>
+            <option value="quranic-studies">Quranic Studies</option>
+            <option value="arabic-language">Arabic Language</option>
+            <option value="islamic-history">Islamic History</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comments">Comments or Questions:</label>
+          <textarea id="comments" name="comments" rows="4" placeholder="Any questions?"></textarea>
+        </div>
+        <button type="submit">Submit Enrollment</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Our Course. All rights reserved.</p>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
